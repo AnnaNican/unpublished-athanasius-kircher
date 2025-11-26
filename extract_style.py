@@ -16,6 +16,7 @@ KNOWLEDGE_PATHS = [
 OUTPUT_PATH = Path("kircker-style.md")
 CHUNK_SIZE = 20_000
 CHUNK_DELAY_SECONDS = 60
+MAX_CHUNKS = 10
 PROMPT_TEXT = """
 I'm working on a creative writing project where I want to understand and potentially
 emulate the writing style of this book. Please analyze the attached text and create
@@ -104,7 +105,7 @@ def main() -> None:
 
     client = anthropic.Anthropic(api_key=api_key)
     knowledge_text = load_knowledge()
-    chunks = split_text(knowledge_text, CHUNK_SIZE)
+    chunks = split_text(knowledge_text, CHUNK_SIZE)[:MAX_CHUNKS]
 
     chunk_outputs: List[str] = []
     for idx, chunk in enumerate(chunks):
