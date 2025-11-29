@@ -16,7 +16,7 @@ KNOWLEDGE_PATHS = [
 OUTPUT_PATH = Path("kircker-style.md")
 CHUNK_SIZE = 20_000
 CHUNK_DELAY_SECONDS = 60
-MAX_CHUNKS = 10
+MAX_CHUNKS = 3
 PROMPT_TEXT = """
 I'm working on a creative writing project where I want to understand and potentially
 emulate the writing style of this book. Please analyze the attached text and create
@@ -60,6 +60,22 @@ a detailed style guide that captures:
 
 Please provide specific examples from the text to illustrate each point. Format
 this as a practical style guide I can reference when writing in a similar style.
+""".strip()
+MASTER_PROMPT = """
+I've now analyzed various chunks of works across various books and the document contains style guides for each. Please synthesize these into a unified master style guide that:
+
+1. Identifies common stylistic elements across all 10 books.
+2. Identifies main topics and themes that can inspire a new book.
+3. Notes where books diverge in style and suggests when to use each approach.
+4. Creates a coherent "blended voice" that draws from the best elements of all sources.
+5. Provides practical writing guidelines to emulate this combined style, organized by:
+   - Sentence-level style rules
+   - Paragraph and scene construction
+   - Voice and tone guidelines
+   - Thematic frameworks to explore
+   - Do's and don'ts based on all sources
+
+Format the result as a practical bullet-point reference for generating a new book, including specific examples wherever possible.
 """.strip()
 
 
@@ -130,7 +146,30 @@ def main() -> None:
         if idx < len(chunks) - 1:
             time.sleep(CHUNK_DELAY_SECONDS)
 
-    OUTPUT_PATH.write_text("\n\n".join(chunk_outputs), encoding="utf-8")
+    combined_chunks = "\n\n".join(chunk_outputs)
+
+    master_response = client.messages.create(
+        model="claude-sonnet-4-20250514",
+        max_tokens=4096,
+        messages=[
+            {
+                "role": "user",
+                "content": [
+                    {"type": "text", "text": MASTER_PROMPT},
+                    {"type": "text", "text": combined_chunks},
+                ],
+            }
+        ],
+    )
+
+    final_document = (
+        "# Chunked Style Guides\n\n"
+        f"{combined_chunks}\n\n"
+        "# Master Style Guide\n\n"
+        f"{master_response.content[0].text}"
+    )
+
+    OUTPUT_PATH.write_text(final_document, encoding="utf-8")
 
 
 if __name__ == "__main__":
