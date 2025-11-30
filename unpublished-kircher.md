@@ -1,6 +1,63 @@
 **LUCIS MAGNETICAE MYSTERIA**
 *Being a Most Particular & Methodical Treatise upon the Sympathetick Correspondences betwixt the Celestial Luminaries and the Hidden Architectures of Divine Wisdom, as Manifested through Divers Optical Experiments and Contemplations*
 
+
+
+
+---
+
+===============================================================================
+
+**TABLE OF CONTENT**
+
+1. LUCIS MAGNETICAE MYSTERIA
+2. PROLOGUS AD LECTOREM BENEVOLUM
+3. SECTION IX: DE PERFECTIONE OPERIS ET FUTURIS SPEBUS
+4. DE HARMONIA UNIVERSALI ET MYSTERIIS SONORUM
+5. CAPUT PRIMUM: DE ORIGINE ET NATURA SONI
+6. CAPUT SECUNDUM: DE PROPORTIONIBUS HARMONICIS ET NUMERIS SACRIS
+7. CAPUT TERTIUM: DE MUSICA MUNDANA ET MOTIBUS CAELESTIBUS
+8. CAPUT QUARTUM: DE SYMPATHIA UNIVERSALI ET CORRESPONDENTIIS HARMONICIS
+9. CAPUT QUINTUM: DE VIRTUTIBUS MAGICIS MUSICAE ET EFFECTIBUS MIRABILIBUS
+10. CAPUT SEXTUM: DE LINGUA UNIVERSALI PER HARMONIAS EXPRESSA
+11. CAPUT SEPTIMUM: DE CONSTRUCTIONE INSTRUMENTORUM MAGICORUM
+12. EPILOGUS: DE FUTURIS INVESTIGATIONIBUS
+13. DE HARMONIA MUNDI ET MOTIBUS CAELESTIBUS
+14. CAPUT PRIMUM: De Fundamentis Harmoniae Universalis
+15. CAPUT SECUNDUM: De Musicis Intervallis et Motibus Planetarum
+16. CAPUT TERTIUM: De Jovis et Saturni Mysteriis
+17. CAPUT QUARTUM: De Harmoniis Terrestribus et Caelestibus
+18. CAPUT QUINTUM: De Applicationibus Practicis
+19. CAPUT SEXTUM: De Mysteriis Supremis
+20. MUSURGIA UNIVERSALIS: Being a Treatise Upon the Mystical Correspondence Between the Harmonies of Sound and the Secret Motions of the Celestial Spheres, Wherein is Demonstrated the Ancient Wisdom Concerning the Music of the Cosmos
+21. DE HARMONIA MUNDI ET NUMERORUM MYSTERIIS
+22. CAPUT PRIMUM: De Antiquissima Sapientia Numerorum
+23. CAPUT SECUNDUM: De Harmonicis Proportionibus in Motu Planetarum
+24. CAPUT TERTIUM: De Correspondentiis Inter Musicam Coelestem et Terrestrem
+25. CAPUT QUARTUM: De Numerorum Proprietatibus in Compositione Musicali
+26. CAPUT QUINTUM: De Mysteriis Hieroglyphicis et Numerorum Significationibus
+27. CAPUT SEXTUM: De Applicatione Scientiae Harmonicae ad Medicinam et Theologiam
+28. DE PYRAMIDARUM MYSTERIIS ET HARMONICIS PROPORTIONIBUS
+29. DE MYSTERIIS GEOMETRICIS ET NUMERORUM SACRORUM CORRESPONDENTIA
+30. MUSURGIA UNIVERSALIS SIVE HARMONICA INSTRUMENTORUM DIVINARUM
+31. PROOEMIUM AD LECTOREM
+32. CAPUT PRIMUM: De Fundamentis Harmonicis et Proportionibus Divinis
+33. SECTIO PRIMA: De Experimentis Sympatheticis
+34. SECTIO SECUNDA: De Correspondentiis Microcosmicis
+35. CAPUT SECUNDUM: De Magnetismo Harmonico et Viribus Occultis
+36. EXPERIMENTUM PRIMUM: De Magnetismo Musicali
+37. SECTIO TERTIA: De Planetarum Musicis
+38. EXPERIMENTUM SECUNDUM: De Auditu Coelesti
+39. CAPUT TERTIUM: De Applicationibus Therapeuticis
+40. SECTIO PRIMA: De Modis Therapeuticis
+41. SECTIO SECUNDA: De Instrumentis Medicinalibus
+42. CAPUT QUARTUM: De Mysteriis Acusticis et Revelationibus Divinis
+43. SECTIO PRIMA: De Nominibus Divinis et Potentiis Sonorum
+44. SECTIO SECUNDA: De Linguis Angelicis et Harmonijs Coelestibus
+45. CONCLUSIO: De Ascensu Animae per Harmonias ad Beatitudinem
+46. DE PROPORTIONIBUS SACRIS IN ARCHITECTURA MYSTICA
+47. De Correspondentia Hieroglyphicorum Signorum cum Motibus Coelestibus: A Discourse on the Hidden Harmonies Between Sacred Egyptian Characters and the Divine Architecture of the Heavens
+
 ---
 
 **PROLOGUS AD LECTOREM BENEVOLUM**
