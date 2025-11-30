@@ -173,8 +173,8 @@ def clean_text_content(text):
 
 
 def main():
-    # Get the knowledge folder paths
-    script_dir = Path(__file__).parent
+    # Get the knowledge folder paths (go up one level from clean-text/)
+    script_dir = Path(__file__).parent.parent
     knowledge_dir = script_dir / "knowledge"
     txt_dir = knowledge_dir / "txt"
     txt_cleaned_dir = knowledge_dir / "txt-cleaned"

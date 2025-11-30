@@ -36,8 +36,8 @@ def extract_text_from_pdf(pdf_path):
 
 
 def main():
-    # Get the knowledge folder paths
-    script_dir = Path(__file__).parent
+    # Get the knowledge folder paths (go up one level from extract-text/)
+    script_dir = Path(__file__).parent.parent
     knowledge_dir = script_dir / "knowledge"
     pdf_dir = knowledge_dir / "pdf"
     txt_dir = knowledge_dir / "txt"

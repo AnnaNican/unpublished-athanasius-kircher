@@ -9,11 +9,13 @@ import anthropic
 from dotenv import load_dotenv
 
 
+# Paths relative to project root (go up one level from generate-text/)
+SCRIPT_DIR = Path(__file__).parent.parent
 KNOWLEDGE_PATHS = [
-    Path("knowledge/txt-en/societate-lesu-arithmologia.txt"),
-    Path("knowledge/txt-en/ars-magna-lucis.txt"),
+    SCRIPT_DIR / "knowledge/txt-en/societate-lesu-arithmologia.txt",
+    SCRIPT_DIR / "knowledge/txt-en/ars-magna-lucis.txt",
 ]
-OUTPUT_PATH = Path("kircker-style.md")
+OUTPUT_PATH = SCRIPT_DIR / "kircker-style.md"
 CHUNK_SIZE = 20_000
 CHUNK_DELAY_SECONDS = 60
 MAX_CHUNKS = 3

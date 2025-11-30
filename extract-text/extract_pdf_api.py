@@ -96,8 +96,8 @@ def main():
         print(f"Error initializing Unstructured client: {str(e)}", file=sys.stderr)
         sys.exit(1)
     
-    # Get the knowledge folder paths
-    script_dir = Path(__file__).parent
+    # Get the knowledge folder paths (go up one level from extract-text/)
+    script_dir = Path(__file__).parent.parent
     knowledge_dir = script_dir / "knowledge"
     pdf_dir = knowledge_dir / "pdf"
     txt_dir = knowledge_dir / "txt"

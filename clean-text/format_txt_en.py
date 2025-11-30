@@ -158,7 +158,7 @@ def collect_txt_files(root: Path) -> list[Path]:
 
 
 def main() -> None:
-    script_dir = Path(__file__).resolve().parent
+    script_dir = Path(__file__).resolve().parent.parent  # Go up one level from clean-text/
     target_dir = Path(sys.argv[1]).expanduser() if len(sys.argv) > 1 else script_dir / 'knowledge' / 'txt-en'
 
     if not target_dir.exists():

@@ -213,8 +213,8 @@ def get_text_sample(text, sample_size=10000):
 
 
 def main():
-    # Get the knowledge folder paths
-    script_dir = Path(__file__).parent
+    # Get the knowledge folder paths (go up one level from extract-text/)
+    script_dir = Path(__file__).parent.parent
     knowledge_dir = script_dir / "knowledge"
     txt_dir = knowledge_dir / "txt"
     txt_en_dir = knowledge_dir / "txt-en"

@@ -21,8 +21,10 @@ import anthropic
 from dotenv import load_dotenv
 
 
-STYLE_GUIDE_PATH = Path("kircker-style.md")
-OUTPUT_PATH = Path("unpublished-kircher.md")
+# Paths relative to project root (go up one level from generate-text/)
+SCRIPT_DIR = Path(__file__).parent.parent
+STYLE_GUIDE_PATH = SCRIPT_DIR / "kircker-style.md"
+OUTPUT_PATH = SCRIPT_DIR / "unpublished-kircher.md"
 MODEL_NAME = "claude-sonnet-4-20250514"
 DEFAULT_WORD_TARGET = 50000
 
