@@ -20,5 +20,11 @@ Gemfile.lock
 # Exclude PDF files in knowledge folder
 knowledge/pdf/
 
+# Exclude extracted images
+knowledge/images/
+
+# Exclude supplementary materials
+knowledge/supplementary/
+
 # Local environment secrets
 .env
